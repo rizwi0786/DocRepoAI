@@ -915,3 +915,105 @@
 2025-08-13 01:33:59 [31merror[39m: DELETE /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 - function delete_user(unknown) does not exist
 2025-08-13 01:33:59 [32minfo[39m: DELETE /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 500 - 239.64ms - IP: ::1
 2025-08-13 01:35:29 [32minfo[39m: DELETE /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 200 - 120.08ms - IP: ::1
+2025-08-31 21:06:21 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:06:21 GMT+0530 (India Standard Time)
+2025-08-31 21:06:21 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:06:38 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:06:38 GMT+0530 (India Standard Time)
+2025-08-31 21:06:38 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:08:17 [32minfo[39m: GET /api/ping 200 - 49.90ms - IP: ::1
+2025-08-31 21:11:13 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:13 GMT+0530 (India Standard Time)
+2025-08-31 21:11:13 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:11:22 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:22 GMT+0530 (India Standard Time)
+2025-08-31 21:11:22 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:11:29 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:29 GMT+0530 (India Standard Time)
+2025-08-31 21:11:29 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:11:32 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:32 GMT+0530 (India Standard Time)
+2025-08-31 21:11:32 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:11:48 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:48 GMT+0530 (India Standard Time)
+2025-08-31 21:11:48 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:11:49 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:11:49 GMT+0530 (India Standard Time)
+2025-08-31 21:11:49 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:12:08 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:12:08 GMT+0530 (India Standard Time)
+2025-08-31 21:12:08 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:12:11 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:12:11 GMT+0530 (India Standard Time)
+2025-08-31 21:12:11 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:14:42 [32minfo[39m: Admin contact email sent: <1d278c3b-a4cd-6f3f-cb6a-8f09130dafe4@gmail.com>
+2025-08-31 21:14:44 [31merror[39m: Error sending user confirmation email No recipients defined
+2025-08-31 21:14:44 [31merror[39m: POST /api/contactUs/submit-contact-form - No recipients defined
+2025-08-31 21:14:44 [32minfo[39m: POST /api/contactUs/submit-contact-form 500 - 5908.91ms - IP: ::1
+2025-08-31 21:17:46 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:17:46 GMT+0530 (India Standard Time)
+2025-08-31 21:17:46 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:17:50 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:17:50 GMT+0530 (India Standard Time)
+2025-08-31 21:17:50 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:17:54 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:17:54 GMT+0530 (India Standard Time)
+2025-08-31 21:17:54 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:18:10 [32minfo[39m: Admin contact email sent: <b90e5611-8dfa-2838-5af2-24ebd40f2840@gmail.com>
+2025-08-31 21:18:13 [32minfo[39m: User confirmation email sent: <6859aa33-d850-cfef-fb9f-605c966b611f@gmail.com>
+2025-08-31 21:18:13 [32minfo[39m: Contact form submitted successfully
+2025-08-31 21:18:13 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6936.36ms - IP: ::1
+2025-08-31 21:23:09 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:23:09 GMT+0530 (India Standard Time)
+2025-08-31 21:23:09 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:23:12 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:23:12 GMT+0530 (India Standard Time)
+2025-08-31 21:23:12 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:23:24 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:23:24 GMT+0530 (India Standard Time)
+2025-08-31 21:23:24 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:23:27 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:23:27 GMT+0530 (India Standard Time)
+2025-08-31 21:23:27 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:23:30 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:23:30 GMT+0530 (India Standard Time)
+2025-08-31 21:23:30 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:23:41 [32minfo[39m: Admin contact email sent: <e4d5bc3f-441c-8155-566c-2bb7f4f4a805@gmail.com>
+2025-08-31 21:23:44 [32minfo[39m: User confirmation email sent: <74836eb4-70e6-5ddc-e1cc-343c35f0cacc@gmail.com>
+2025-08-31 21:23:44 [32minfo[39m: Contact form submitted successfully
+2025-08-31 21:23:44 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6665.49ms - IP: ::1
+2025-08-31 21:27:40 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:27:40 GMT+0530 (India Standard Time)
+2025-08-31 21:27:40 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:28:02 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:28:02 GMT+0530 (India Standard Time)
+2025-08-31 21:28:02 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:28:10 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:28:10 GMT+0530 (India Standard Time)
+2025-08-31 21:28:10 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:28:12 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:28:12 GMT+0530 (India Standard Time)
+2025-08-31 21:28:12 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:28:13 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:28:13 GMT+0530 (India Standard Time)
+2025-08-31 21:28:13 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:28:36 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:28:36 GMT+0530 (India Standard Time)
+2025-08-31 21:28:36 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:30:53 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:30:53 GMT+0530 (India Standard Time)
+2025-08-31 21:30:53 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:30:57 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:30:57 GMT+0530 (India Standard Time)
+2025-08-31 21:30:57 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:31:16 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:31:16 GMT+0530 (India Standard Time)
+2025-08-31 21:31:16 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:31:28 [32minfo[39m: ✅ Connected to PostgreSQL at Sun Aug 31 2025 21:31:28 GMT+0530 (India Standard Time)
+2025-08-31 21:31:28 [32minfo[39m: 🚀 Server running on port 5000
+2025-08-31 21:43:28 [32minfo[39m: POST /api/contactUs/submit-contact-form 400 - 13.54ms - IP: ::1
+2025-08-31 23:32:14 [32minfo[39m: Admin contact email sent: <20e1d7b1-9fbe-b6db-ebe9-51fb2cd9648d@gmail.com>
+2025-08-31 23:32:18 [32minfo[39m: User confirmation email sent: <724f61fd-f0e8-ccaf-8974-6405db5eca33@gmail.com>
+2025-08-31 23:32:18 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:32:18 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 7070.62ms - IP: ::1
+2025-08-31 23:42:11 [32minfo[39m: Admin contact email sent: <5450aec9-1011-54c8-60d3-e4c042f268d6@gmail.com>
+2025-08-31 23:42:14 [32minfo[39m: User confirmation email sent: <ac660fa6-caf7-ff61-a8b9-96c0de94f476@gmail.com>
+2025-08-31 23:42:14 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:42:14 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6617.27ms - IP: ::1
+2025-08-31 23:48:15 [32minfo[39m: Admin contact email sent: <28132d0d-bc80-3562-654c-0b4393912c4a@gmail.com>
+2025-08-31 23:48:18 [32minfo[39m: User confirmation email sent: <a034a8f4-c04d-8044-9a19-c8d4096d96f2@gmail.com>
+2025-08-31 23:48:18 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:48:18 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6141.86ms - IP: ::1
+2025-08-31 23:49:57 [32minfo[39m: Admin contact email sent: <f3ce3a81-5503-2ace-12b9-afdd8ca12c44@gmail.com>
+2025-08-31 23:50:00 [32minfo[39m: User confirmation email sent: <53529926-658c-f30a-1829-603adcb8f51e@gmail.com>
+2025-08-31 23:50:00 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:50:00 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6088.62ms - IP: ::1
+2025-08-31 23:51:49 [32minfo[39m: Admin contact email sent: <fe25ddca-203d-37f4-610d-c3886d143dd2@gmail.com>
+2025-08-31 23:51:53 [32minfo[39m: User confirmation email sent: <3ced2927-dea0-c5a0-84b6-4afdd3ab1fcb@gmail.com>
+2025-08-31 23:51:53 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:51:53 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6741.55ms - IP: ::1
+2025-08-31 23:52:08 [32minfo[39m: Admin contact email sent: <af96cf8a-f688-7348-0a8b-030b9f967e5f@gmail.com>
+2025-08-31 23:52:11 [32minfo[39m: User confirmation email sent: <caeaea41-b2ff-bb4c-f7ae-1db58d63b7b8@gmail.com>
+2025-08-31 23:52:11 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:52:11 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6176.56ms - IP: ::1
+2025-08-31 23:54:06 [32minfo[39m: Admin contact email sent: <108ea0a4-d092-ed27-e498-d647f78a7866@gmail.com>
+2025-08-31 23:54:09 [32minfo[39m: User confirmation email sent: <16218039-0d72-c3e4-4c7a-266c807b0812@gmail.com>
+2025-08-31 23:54:09 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:54:09 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 5928.08ms - IP: ::1
+2025-08-31 23:54:53 [32minfo[39m: Admin contact email sent: <b47bdee0-df24-0df3-e764-3337e9a1f88c@gmail.com>
+2025-08-31 23:54:56 [32minfo[39m: User confirmation email sent: <44a3866a-28f3-3f37-d56c-d573c8d1c381@gmail.com>
+2025-08-31 23:54:56 [32minfo[39m: Contact form submitted successfully
+2025-08-31 23:54:56 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6652.83ms - IP: ::1

@@ -1,4 +1,6 @@
 // src/pages/LandingPage.jsx
+
+import { useState } from "react";
 import {
   ArrowRight,
   FileText,
@@ -7,11 +9,58 @@ import {
   Shield,
   Search,
   Tags,
+  Loader2,
 } from "lucide-react";
+import toast from "react-hot-toast";
+
+// import CustomCursor from "../components/CustomCursor";
 
 export default function LandingPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  // const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    // console.log(formData);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    // console.log(formData);
+
+    try {
+      const response = await fetch(
+        "http://localhost:5000/api/contactUs/submit-contact-form",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      if (response.ok) {
+        toast.success("Message sent successfully 🚀");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        toast.error("Something went wrong ❌");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Server error, please try again ⚠️");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div className="bg-gray-950 text-white flex flex-col">
+    <div className=" landing-page bg-gray-950 text-white flex flex-col">
+      {/* <CustomCursor />  */}
       {/* Navbar */}
       <header className="w-full px-8 py-6 flex justify-between items-center border-b border-gray-800 fixed top-0 left-0 z-50 bg-gray-950">
         <h1 className="text-2xl font-bold text-blue-400">DocuAI</h1>
@@ -111,10 +160,10 @@ export default function LandingPage() {
           <p className="text-gray-400 text-lg leading-relaxed">
             DocuAI is an AI-powered{"  "}
             <span className="text-blue-400 font-semibold">
-              document repository 
+              document repository
             </span>
-            {"  "}where you can securely upload and organize all your important files.
-            Our intelligent system automatically{" "}
+            {"  "}where you can securely upload and organize all your important
+            files. Our intelligent system automatically{" "}
             <span className="text-blue-400 font-semibold">tags documents</span>
             {"  "}based on their content, making them easy to find. You can{" "}
             <span className="text-blue-400 font-semibold">
@@ -144,24 +193,47 @@ export default function LandingPage() {
         className="h-screen px-10 md:px-20 py-20 bg-gray-900 flex flex-col justify-center w-full"
       >
         <h3 className="text-4xl font-bold text-center mb-10">Contact Us</h3>
-        <form className="max-w-2xl mx-auto space-y-6">
+        <form className="max-w-2xl mx-auto space-y-6" onSubmit={handleSubmit}>
           <input
             type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
             placeholder="Your Name"
+            required
             className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
             placeholder="Your Email"
+            required
             className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
             placeholder="Your Message"
             rows="5"
+            required
             className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
-          <button className="w-full bg-blue-500 hover:bg-blue-600 py-3 rounded-lg font-semibold">
-            Send Message
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full bg-blue-500 hover:bg-blue-600 py-3 rounded-lg font-semibold flex justify-center items-center gap-2"
+          >
+            {loading ? (
+              <>
+                <Loader2 className="animate-spin" size={20} />
+                Sending...
+              </>
+            ) : (
+              "Send Message"
+            )}
           </button>
         </form>
       </section>

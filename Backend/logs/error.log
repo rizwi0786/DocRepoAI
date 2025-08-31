@@ -11,3 +11,5 @@
 2025-08-13 01:21:44 [31merror[39m: PUT /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 - function update_user(unknown, unknown, unknown, unknown) does not exist
 2025-08-13 01:22:51 [31merror[39m: PUT /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 - function update_user(unknown, unknown, unknown, unknown) does not exist
 2025-08-13 01:33:59 [31merror[39m: DELETE /api/users/7fea9912-2ba6-4027-950d-d98f7bd6d216 - function delete_user(unknown) does not exist
+2025-08-31 21:14:44 [31merror[39m: Error sending user confirmation email No recipients defined
+2025-08-31 21:14:44 [31merror[39m: POST /api/contactUs/submit-contact-form - No recipients defined
