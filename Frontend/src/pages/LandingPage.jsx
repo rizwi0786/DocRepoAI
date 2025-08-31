@@ -101,10 +101,13 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="flex-1 flex justify-center mt-10 md:mt-0">
-          <img
-            src="/images/ai-docs.png"
-            alt="AI Document"
-            className="w-[420px] rounded-xl shadow-lg shadow-blue-900/50"
+          <video
+            src="/images/DOC_AI2.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-[600px] h-[350px] md:w-[700px] md:h-[400px] rounded-2xl shadow-lg shadow-blue-900/50 object-cover"
           />
         </div>
       </section>
