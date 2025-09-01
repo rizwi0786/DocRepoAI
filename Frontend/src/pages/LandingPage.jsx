@@ -95,14 +95,21 @@ export default function LandingPage() {
             <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-semibold flex items-center gap-2">
               Try Now <ArrowRight size={18} />
             </button>
-            <button className="border border-gray-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800">
+            <button
+              onClick={() =>
+                document
+                  .getElementById("about")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+              className="border border-gray-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800"
+            >
               Learn More
             </button>
           </div>
         </div>
         <div className="flex-1 flex justify-center mt-10 md:mt-0">
           <video
-            src="/images/DOC_AI2.mp4"
+            src="/images/LandingPage.mp4"
             autoPlay
             loop
             muted
