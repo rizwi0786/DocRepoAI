@@ -3,3 +3,4 @@ node_modules/
 # Optional: ignore build/dist files
 dist/
 build/
+Frontend/public/images/LandingPage.mp4
