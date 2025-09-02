@@ -1017,3 +1017,21 @@
 2025-08-31 23:54:56 [32minfo[39m: User confirmation email sent: <44a3866a-28f3-3f37-d56c-d573c8d1c381@gmail.com>
 2025-08-31 23:54:56 [32minfo[39m: Contact form submitted successfully
 2025-08-31 23:54:56 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 6652.83ms - IP: ::1
+2025-09-01 00:05:44 [32minfo[39m: ✅ Connected to PostgreSQL at Mon Sep 01 2025 00:05:44 GMT+0530 (India Standard Time)
+2025-09-01 00:05:44 [32minfo[39m: 🚀 Server running on port 5000
+2025-09-02 21:03:56 [32minfo[39m: ✅ Connected to PostgreSQL at Tue Sep 02 2025 21:03:56 GMT+0530 (India Standard Time)
+2025-09-02 21:03:56 [32minfo[39m: 🚀 Server running on port 5000
+2025-09-02 21:33:43 [32minfo[39m: Admin contact email sent: <89703fb1-3f2a-cfac-b3f5-12337935aa74@gmail.com>
+2025-09-02 21:33:47 [32minfo[39m: User confirmation email sent: <e350d2fe-a255-6c8f-afab-2f0f26241014@gmail.com>
+2025-09-02 21:33:47 [32minfo[39m: Contact form submitted successfully
+2025-09-02 21:33:47 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 8367.45ms - IP: ::1
+2025-09-02 21:36:38 [32minfo[39m: Admin contact email sent: <7cbe6351-ac4f-01e5-744e-d9411026341e@gmail.com>
+2025-09-02 21:36:42 [32minfo[39m: User confirmation email sent: <e5fb9e8d-ed46-e2c7-3975-13a29b483a69@gmail.com>
+2025-09-02 21:36:42 [32minfo[39m: Contact form submitted successfully
+2025-09-02 21:36:42 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 8482.51ms - IP: ::1
+2025-09-02 21:51:46 [32minfo[39m: ✅ Connected to PostgreSQL at Tue Sep 02 2025 21:51:46 GMT+0530 (India Standard Time)
+2025-09-02 21:51:46 [32minfo[39m: 🚀 Server running on port 5000
+2025-09-03 00:25:36 [32minfo[39m: Admin contact email sent: <2b7c336d-73ed-dfaf-9bff-b1b24d28634f@gmail.com>
+2025-09-03 00:25:40 [32minfo[39m: User confirmation email sent: <3dda1099-8aff-7cda-43c9-66b60b21d1fd@gmail.com>
+2025-09-03 00:25:40 [32minfo[39m: Contact form submitted successfully
+2025-09-03 00:25:40 [32minfo[39m: POST /api/contactUs/submit-contact-form 200 - 7729.36ms - IP: ::1
